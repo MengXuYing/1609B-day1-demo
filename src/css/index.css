@@ -36,6 +36,22 @@ header {
 section {
   flex: 1;
   overflow-y: hidden; }
+  section .swiper-container,
+  section .swiper-wrapper,
+  section .swiper-slide {
+    width: 100%;
+    height: 200px; }
+  section .swiper-slide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    section .swiper-slide dl {
+      width: 19%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
 
 footer {
   width: 100%;

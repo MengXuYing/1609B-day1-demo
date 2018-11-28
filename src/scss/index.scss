@@ -1,80 +1,82 @@
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	touch-action: none;
+* {
+    margin: 0;
+    padding: 0;
+    touch-action: none;
 }
-html,body{
-	width: 100%;
-	height: 100%;
-}
-.wrap{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	background: #fff;
-}
-header{
-	width: 100%;
-	height: 44px;
-	display: flex;
-	position: relative;
-	padding: 0 10px;
-	background: #ccc;
-	box-sizing: border-box;
-	input{
-		width: 100%;
-		height: 35px;
-		padding:0 50px;
-		box-sizing: border-box;
-		border:0;
-		border-radius: 15px;
-		
-	}
-	span{
-		position:absolute;
-		left:15px;
-		top:8px;
-	}
-}
-section{
-	flex:1;
-	overflow-y: hidden;
-	.swiper-container,
-	.swiper-wrapper,
-	.swiper-slide{
-		width: 100%;
-		height: 200px;
-		
-	}
-	.swiper-slide{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: center;
-		dl{
-			width: 19%;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			dt{
-				width: 40px;
-				line-height: 40px;
-				border-radius: 50%;
-				text-align: center;
-				background: skyblue;
-				span{
-					color:#fff;
-				}
-			}
-		}
-	}
-}
-footer{
-	width: 100%;
-	height: 50px;
-	display: flex;
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+header {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    position: relative;
+    padding: 0 10px;
+    background: #ccc;
+    box-sizing: border-box;
+    input {
+        width: 100%;
+        height: 35px;
+        padding: 0 50px;
+        box-sizing: border-box;
+        border: 0;
+        border-radius: 15px;
+    }
+    span {
+        position: absolute;
+        left: 15px;
+        top: 8px;
+    }
+}
+
+section {
+    flex: 1;
+    overflow-y: hidden;
+    .swiper-container,
+    .swiper-wrapper,
+    .swiper-slide {
+        width: 100%;
+        height: 200px;
+    }
+    .swiper-slide {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        dl {
+            width: 19%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            dt {
+                width: 40px;
+                line-height: 40px;
+                border-radius: 50%;
+                text-align: center;
+                background: skyblue;
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
 }

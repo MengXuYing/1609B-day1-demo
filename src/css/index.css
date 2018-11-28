@@ -12,7 +12,8 @@ html, body {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background: #fff; }
 
 header {
   width: 100%;
@@ -20,6 +21,7 @@ header {
   display: flex;
   position: relative;
   padding: 0 10px;
+  background: #ccc;
   box-sizing: border-box; }
   header input {
     width: 100%;
@@ -52,6 +54,14 @@ section {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
+      section .swiper-slide dl dt {
+        width: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        background: skyblue; }
+        section .swiper-slide dl dt span {
+          color: #fff; }
 
 footer {
   width: 100%;
